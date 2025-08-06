@@ -3,7 +3,7 @@
 import os
 import json
 import argparse
-from tb_eval.constants import NATIVE_PERF_GOLD_ROOT
+from geak_eval.constants import NATIVE_PERF_GOLD_ROOT
 
 # golden_metrics_folder = TBG_PERF_GOLD_ROOT
 _MODULE_DIR = os.path.dirname(os.path.abspath(__file__))

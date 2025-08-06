@@ -22,7 +22,7 @@ from .initializations import initialize_performance_eval_tb, initialize_performa
 from .constants import Names, ROCm_DATA_AUTOTUNE_ROOT
 
 def get_parser():
-    parser = argparse.ArgumentParser(prog="tb_eval", description="Check correctness of the code.")
+    parser = argparse.ArgumentParser(prog="geak_eval", description="Check correctness of the code.")
     subparsers = parser.add_subparsers(dest='command')
 
     ## main and default parser

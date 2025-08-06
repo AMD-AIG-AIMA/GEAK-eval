@@ -4,7 +4,7 @@ from glob import glob
 import numpy as np
 import torch
 import subprocess
-from tb_eval.constants import Names
+from geak_eval.constants import Names
 from loguru import logger
 
 torch.set_printoptions(profile="full")
