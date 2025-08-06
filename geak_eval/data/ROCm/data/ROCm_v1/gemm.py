@@ -245,7 +245,7 @@ import sys
 import argparse  
 import pytest  
 import re  
-from tb_eval.perf.ROCm.performance_utils_pytest import PytestBenchmarker, do_bench_config, save_all_benchmark_results
+from geak_eval.perf.ROCm.performance_utils_pytest import PytestBenchmarker, do_bench_config, save_all_benchmark_results
 from typing import Dict  
 ######################################## HELPERS for Eval ######################################## 
 import numpy as np

@@ -156,7 +156,7 @@ import torch
 from torch import Tensor  
 import triton  
 import triton.language as tl  
-from tb_eval.perf.ROCm.performance_utils_pytest import PytestBenchmarker, do_bench_config, save_all_benchmark_results
+from geak_eval.perf.ROCm.performance_utils_pytest import PytestBenchmarker, do_bench_config, save_all_benchmark_results
 from typing import Dict
 
 result_gold = {}
