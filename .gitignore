@@ -1,7 +1,6 @@
 *tmp*/
 *log*/
 *output*/
-*.json
 *.log
 *.csv
 *.egg-info/
