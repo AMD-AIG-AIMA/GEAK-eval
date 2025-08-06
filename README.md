@@ -11,8 +11,8 @@ Please install running the following command from the root folder:
 
 ### Running evaluation
 Before running evaluations you must run the setup to record ground truth performance data for your GPU.
- - `geak-eval setup tbg`
- - `geak-eval setup rocm`
+ - `geak-eval setup -ds tbg`
+ - `geak-eval setup -ds rocm`
 
 You can run evaluations in the following two ways:
 1. Command line run:
