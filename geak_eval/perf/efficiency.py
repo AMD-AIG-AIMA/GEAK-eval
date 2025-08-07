@@ -116,14 +116,13 @@ class PerformanceEvalROCm(BasePerfEval):
             self.ref_folder = ROCM_PERF_GOLD_DATA_ROOT
 
 
-    def evaluate(self, exec_folder: str, gen_perf_folder: str = None, golden_metrics_folder: str = None) -> dict:
+    def evaluate(self, exec_folder: str, gen_perf_folder: str = None) -> dict:
         """
         Evaluate the performance of ROCm kernels.
         
         Args:
             exec_folder: Root location with kernels (py files with pytest functions) to evaluate.
             gen_perf_folder: Folder where performance JSONs will be stored. Defaults to exec_folder/perf.
-            golden_metrics_folder: Not used in this evaluation.
         
         Returns:
             A dictionary containing the evaluation results (ms and efficiency for each file).
@@ -134,6 +133,7 @@ class PerformanceEvalROCm(BasePerfEval):
 
         if gen_perf_folder is None:
             gen_perf_folder = os.path.join(exec_folder, 'perf')
+
         
         if os.path.exists(gen_perf_folder):
             print(f"Removing existing performance folder: {gen_perf_folder}")
@@ -185,6 +185,7 @@ class PerformanceEvalROCm(BasePerfEval):
             if not pytest_status:
                 assert False, f"Pytest execution failed for {py_file_path} (test_performance & test_save_performance_results): {pytest_stderr}"
         
+
         print("All pytest runs completed.")
 
         efficiency_script_path = os.path.join(curr_dir, "ROCm", "efficiency.py") 
@@ -202,6 +203,10 @@ class PerformanceEvalROCm(BasePerfEval):
                 else:
                     assert False, f"Efficiency script not found. Checked: {os.path.join(curr_dir, 'ROCm', 'efficiency.py')} and {alt_efficiency_script_path}"
         
+        if gen_perf_folder_abs == self.ref_folder:
+            # dont do further, return
+            return {}
+
         cmd_efficiency = [f"python3 {efficiency_script_path} --gen_folder {gen_perf_folder_abs} --ref_folder {self.ref_folder}"]
 
         print(f"Running efficiency script: {' '.join(cmd_efficiency)}")

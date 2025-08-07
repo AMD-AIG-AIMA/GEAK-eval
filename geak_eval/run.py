@@ -60,7 +60,7 @@ def setup(args):
     if args.dataset in ['tbg']:
         initialize_performance_eval_tb()
     else:
-        # initialize_performance_eval_rocm()
+        initialize_performance_eval_rocm()
         pass
 def eval(args):
     ## instantiate objects
