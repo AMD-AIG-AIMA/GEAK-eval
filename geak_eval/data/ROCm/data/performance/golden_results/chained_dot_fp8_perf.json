@@ -1,0 +1,302 @@
+[
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 128,
+            "N_kv_seqlen": 64,
+            "D_head": 32,
+            "dtype_str": "fp16",
+            "msize_arg": 16
+        },
+        "ms": 0.009,
+        "min_ms": 0.0273,
+        "max_ms": 0.0064,
+        "GB/s": 5.47,
+        "TFLOPS": 0.23
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 128,
+            "N_kv_seqlen": 64,
+            "D_head": 32,
+            "dtype_str": "fp16",
+            "msize_arg": 32
+        },
+        "ms": 0.0194,
+        "min_ms": 0.0264,
+        "max_ms": 0.0176,
+        "GB/s": 2.53,
+        "TFLOPS": 0.11
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 128,
+            "N_kv_seqlen": 64,
+            "D_head": 32,
+            "dtype_str": "fp8",
+            "msize_arg": 16
+        },
+        "ms": 0.018,
+        "min_ms": 0.0209,
+        "max_ms": 0.0168,
+        "GB/s": 1.36,
+        "TFLOPS": 0.12
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 128,
+            "N_kv_seqlen": 64,
+            "D_head": 32,
+            "dtype_str": "fp8",
+            "msize_arg": 32
+        },
+        "ms": 0.0239,
+        "min_ms": 0.0286,
+        "max_ms": 0.0176,
+        "GB/s": 1.03,
+        "TFLOPS": 0.09
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 256,
+            "N_kv_seqlen": 128,
+            "D_head": 64,
+            "dtype_str": "fp16",
+            "msize_arg": 16
+        },
+        "ms": 0.0347,
+        "min_ms": 0.0448,
+        "max_ms": 0.0263,
+        "GB/s": 5.67,
+        "TFLOPS": 0.48
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 256,
+            "N_kv_seqlen": 128,
+            "D_head": 64,
+            "dtype_str": "fp16",
+            "msize_arg": 32
+        },
+        "ms": 0.0295,
+        "min_ms": 0.0602,
+        "max_ms": 0.0214,
+        "GB/s": 6.65,
+        "TFLOPS": 0.57
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 256,
+            "N_kv_seqlen": 128,
+            "D_head": 64,
+            "dtype_str": "fp8",
+            "msize_arg": 16
+        },
+        "ms": 0.0266,
+        "min_ms": 0.0299,
+        "max_ms": 0.019,
+        "GB/s": 3.69,
+        "TFLOPS": 0.63
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 256,
+            "N_kv_seqlen": 128,
+            "D_head": 64,
+            "dtype_str": "fp8",
+            "msize_arg": 32
+        },
+        "ms": 0.0252,
+        "min_ms": 0.0294,
+        "max_ms": 0.02,
+        "GB/s": 3.9,
+        "TFLOPS": 0.67
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 512,
+            "N_kv_seqlen": 128,
+            "D_head": 128,
+            "dtype_str": "fp16",
+            "msize_arg": 16
+        },
+        "ms": 0.03,
+        "min_ms": 0.035,
+        "max_ms": 0.0218,
+        "GB/s": 21.84,
+        "TFLOPS": 2.24
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 512,
+            "N_kv_seqlen": 128,
+            "D_head": 128,
+            "dtype_str": "fp16",
+            "msize_arg": 32
+        },
+        "ms": 0.0284,
+        "min_ms": 0.0325,
+        "max_ms": 0.0224,
+        "GB/s": 23.09,
+        "TFLOPS": 2.36
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 512,
+            "N_kv_seqlen": 128,
+            "D_head": 128,
+            "dtype_str": "fp8",
+            "msize_arg": 16
+        },
+        "ms": 0.0296,
+        "min_ms": 0.0355,
+        "max_ms": 0.0267,
+        "GB/s": 11.06,
+        "TFLOPS": 2.27
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 512,
+            "N_kv_seqlen": 128,
+            "D_head": 128,
+            "dtype_str": "fp8",
+            "msize_arg": 32
+        },
+        "ms": 0.0252,
+        "min_ms": 0.0287,
+        "max_ms": 0.02,
+        "GB/s": 12.99,
+        "TFLOPS": 2.66
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 1024,
+            "N_kv_seqlen": 256,
+            "D_head": 128,
+            "dtype_str": "fp16",
+            "msize_arg": 16
+        },
+        "ms": 0.0255,
+        "min_ms": 0.0322,
+        "max_ms": 0.0224,
+        "GB/s": 51.32,
+        "TFLOPS": 10.51
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 1024,
+            "N_kv_seqlen": 256,
+            "D_head": 128,
+            "dtype_str": "fp16",
+            "msize_arg": 32
+        },
+        "ms": 0.0297,
+        "min_ms": 0.0341,
+        "max_ms": 0.0278,
+        "GB/s": 44.12,
+        "TFLOPS": 9.04
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 1024,
+            "N_kv_seqlen": 256,
+            "D_head": 128,
+            "dtype_str": "fp8",
+            "msize_arg": 16
+        },
+        "ms": 0.0293,
+        "min_ms": 0.0323,
+        "max_ms": 0.0277,
+        "GB/s": 22.36,
+        "TFLOPS": 9.16
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 1024,
+            "N_kv_seqlen": 256,
+            "D_head": 128,
+            "dtype_str": "fp8",
+            "msize_arg": 32
+        },
+        "ms": 0.0291,
+        "min_ms": 0.0321,
+        "max_ms": 0.0277,
+        "GB/s": 22.55,
+        "TFLOPS": 9.24
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 2048,
+            "N_kv_seqlen": 512,
+            "D_head": 64,
+            "dtype_str": "fp16",
+            "msize_arg": 16
+        },
+        "ms": 0.0295,
+        "min_ms": 0.0332,
+        "max_ms": 0.0279,
+        "GB/s": 44.42,
+        "TFLOPS": 18.19
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 2048,
+            "N_kv_seqlen": 512,
+            "D_head": 64,
+            "dtype_str": "fp16",
+            "msize_arg": 32
+        },
+        "ms": 0.0282,
+        "min_ms": 0.0316,
+        "max_ms": 0.0224,
+        "GB/s": 46.44,
+        "TFLOPS": 19.02
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 2048,
+            "N_kv_seqlen": 512,
+            "D_head": 64,
+            "dtype_str": "fp8",
+            "msize_arg": 16
+        },
+        "ms": 0.0214,
+        "min_ms": 0.0291,
+        "max_ms": 0.0182,
+        "GB/s": 30.58,
+        "TFLOPS": 25.05
+    },
+    {
+        "params": {
+            "BATCH": 2,
+            "M_seqlen": 2048,
+            "N_kv_seqlen": 512,
+            "D_head": 64,
+            "dtype_str": "fp8",
+            "msize_arg": 32
+        },
+        "ms": 0.0334,
+        "min_ms": 0.0387,
+        "max_ms": 0.0282,
+        "GB/s": 19.62,
+        "TFLOPS": 16.08
+    }
+]

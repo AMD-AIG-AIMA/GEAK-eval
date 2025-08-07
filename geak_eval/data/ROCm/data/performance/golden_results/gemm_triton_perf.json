@@ -1,0 +1,563 @@
+[
+    {
+        "params": {
+            "M": 1024,
+            "N": 1024,
+            "K": 1024,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 1024,
+            "K": 1024,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 1024,
+            "K": 1024,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "K": 2048,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "K": 2048,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "K": 2048,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 3072,
+            "N": 3072,
+            "K": 3072,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 3072,
+            "N": 3072,
+            "K": 3072,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 3072,
+            "N": 3072,
+            "K": 3072,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 4096,
+            "K": 4096,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 4096,
+            "K": 4096,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 4096,
+            "K": 4096,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 5120,
+            "N": 5120,
+            "K": 5120,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 5120,
+            "N": 5120,
+            "K": 5120,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 5120,
+            "N": 5120,
+            "K": 5120,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 6144,
+            "N": 6144,
+            "K": 6144,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 6144,
+            "N": 6144,
+            "K": 6144,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 6144,
+            "N": 6144,
+            "K": 6144,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 7168,
+            "N": 7168,
+            "K": 7168,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 7168,
+            "N": 7168,
+            "K": 7168,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 7168,
+            "N": 7168,
+            "K": 7168,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "K": 8192,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "K": 8192,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "K": 8192,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4864,
+            "N": 4096,
+            "K": 8192,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4864,
+            "N": 4096,
+            "K": 8192,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4864,
+            "N": 4096,
+            "K": 8192,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 9728,
+            "N": 8192,
+            "K": 65536,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 9728,
+            "N": 8192,
+            "K": 65536,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 9728,
+            "N": 8192,
+            "K": 65536,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4864,
+            "N": 8192,
+            "K": 4160,
+            "in_dtype_a_str": "fp16",
+            "in_dtype_b_str": "fp16",
+            "out_dtype_str": "fp16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4864,
+            "N": 8192,
+            "K": 4160,
+            "in_dtype_a_str": "bf16",
+            "in_dtype_b_str": "bf16",
+            "out_dtype_str": "bf16",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    },
+    {
+        "params": {
+            "M": 4864,
+            "N": 8192,
+            "K": 4160,
+            "in_dtype_a_str": "fp32",
+            "in_dtype_b_str": "fp32",
+            "out_dtype_str": "fp32",
+            "col_a": false,
+            "col_b": false,
+            "fp8_scaling_a": null,
+            "fp8_scaling_b": null,
+            "triton_scale_mode": null,
+            "activation": ""
+        },
+        "error": "PassManager::run failed"
+    }
+]

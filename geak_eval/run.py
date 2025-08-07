@@ -222,5 +222,9 @@ def eval(args):
         with open(froot + "_summary.json", 'w') as out_f:
             json.dump(df, out_f, indent=4)
 
+# expose eval function for external usage
+def eval_entry_point(args):
+    return eval(args)
+    
 if __name__ == "__main__":
     main()

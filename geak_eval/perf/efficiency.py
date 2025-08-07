@@ -204,6 +204,16 @@ class PerformanceEvalROCm(BasePerfEval):
                     assert False, f"Efficiency script not found. Checked: {os.path.join(curr_dir, 'ROCm', 'efficiency.py')} and {alt_efficiency_script_path}"
         
         if gen_perf_folder_abs == self.ref_folder:
+            # Automatically bootstrap, perf baselines based on GPU
+            src_dir = os.path.join(exec_folder_abs, 'perf')
+            dst_dir = gen_perf_folder_abs
+            os.makedirs(dst_dir, exist_ok=True)
+            
+            for root, _, files in os.walk(src_dir):
+                for file in files:
+                    shutil.copy2(os.path.join(root, file), os.path.join(dst_dir, file))
+            
+            shutil.rmtree(src_dir)
             # dont do further, return
             return {}
 

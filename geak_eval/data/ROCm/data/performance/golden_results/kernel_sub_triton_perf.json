@@ -1,0 +1,506 @@
+[
+    {
+        "params": {
+            "N_val": 1024,
+            "dtype_str": "fp32",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0062,
+        "max_ms": 0.0059,
+        "GB/s": 2.08,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 2048,
+            "dtype_str": "fp32",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 4.17,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 4096,
+            "dtype_str": "fp32",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 8.34,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 8192,
+            "dtype_str": "fp32",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 16.57,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 16384,
+            "dtype_str": "fp32",
+            "num_warps": 1
+        },
+        "ms": 0.0062,
+        "min_ms": 0.0063,
+        "max_ms": 0.006,
+        "GB/s": 31.84,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 32768,
+            "dtype_str": "fp32",
+            "num_warps": 1
+        },
+        "ms": 0.0475,
+        "min_ms": 0.0481,
+        "max_ms": 0.047,
+        "GB/s": 8.27,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 65536,
+            "dtype_str": "fp32",
+            "num_warps": 1
+        },
+        "ms": 0.1953,
+        "min_ms": 0.1969,
+        "max_ms": 0.1937,
+        "GB/s": 4.03,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 1024,
+            "dtype_str": "fp16",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 1.04,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 2048,
+            "dtype_str": "fp16",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 2.09,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 4096,
+            "dtype_str": "fp16",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 4.14,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 8192,
+            "dtype_str": "fp16",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 8.28,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 16384,
+            "dtype_str": "fp16",
+            "num_warps": 1
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 16.57,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 32768,
+            "dtype_str": "fp16",
+            "num_warps": 1
+        },
+        "ms": 0.0167,
+        "min_ms": 0.0172,
+        "max_ms": 0.0164,
+        "GB/s": 11.76,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 65536,
+            "dtype_str": "fp16",
+            "num_warps": 1
+        },
+        "ms": 0.1293,
+        "min_ms": 0.1305,
+        "max_ms": 0.1279,
+        "GB/s": 3.04,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 1024,
+            "dtype_str": "fp32",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 2.09,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 2048,
+            "dtype_str": "fp32",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 4.17,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 4096,
+            "dtype_str": "fp32",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 8.28,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 8192,
+            "dtype_str": "fp32",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 16.57,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 16384,
+            "dtype_str": "fp32",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 33.14,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 32768,
+            "dtype_str": "fp32",
+            "num_warps": 2
+        },
+        "ms": 0.0083,
+        "min_ms": 0.0085,
+        "max_ms": 0.0082,
+        "GB/s": 47.15,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 65536,
+            "dtype_str": "fp32",
+            "num_warps": 2
+        },
+        "ms": 0.053,
+        "min_ms": 0.0535,
+        "max_ms": 0.0526,
+        "GB/s": 14.84,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 1024,
+            "dtype_str": "fp16",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 1.04,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 2048,
+            "dtype_str": "fp16",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 2.09,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 4096,
+            "dtype_str": "fp16",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 4.17,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 8192,
+            "dtype_str": "fp16",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 8.34,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 16384,
+            "dtype_str": "fp16",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 16.57,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 32768,
+            "dtype_str": "fp16",
+            "num_warps": 2
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 33.14,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 65536,
+            "dtype_str": "fp16",
+            "num_warps": 2
+        },
+        "ms": 0.0207,
+        "min_ms": 0.021,
+        "max_ms": 0.0204,
+        "GB/s": 19.01,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 1024,
+            "dtype_str": "fp32",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 2.09,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 2048,
+            "dtype_str": "fp32",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 4.17,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 4096,
+            "dtype_str": "fp32",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 8.34,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 8192,
+            "dtype_str": "fp32",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 16.57,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 16384,
+            "dtype_str": "fp32",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 33.14,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 32768,
+            "dtype_str": "fp32",
+            "num_warps": 4
+        },
+        "ms": 0.0078,
+        "min_ms": 0.008,
+        "max_ms": 0.0077,
+        "GB/s": 50.3,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 65536,
+            "dtype_str": "fp32",
+            "num_warps": 4
+        },
+        "ms": 0.0124,
+        "min_ms": 0.0126,
+        "max_ms": 0.0122,
+        "GB/s": 63.48,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 1024,
+            "dtype_str": "fp16",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 1.04,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 2048,
+            "dtype_str": "fp16",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 2.09,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 4096,
+            "dtype_str": "fp16",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.0059,
+        "max_ms": 0.0059,
+        "GB/s": 4.17,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 8192,
+            "dtype_str": "fp16",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 8.34,
+        "TFLOPS": 0.0
+    },
+    {
+        "params": {
+            "N_val": 16384,
+            "dtype_str": "fp16",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 16.57,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 32768,
+            "dtype_str": "fp16",
+            "num_warps": 4
+        },
+        "ms": 0.0059,
+        "min_ms": 0.006,
+        "max_ms": 0.0059,
+        "GB/s": 33.14,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "N_val": 65536,
+            "dtype_str": "fp16",
+            "num_warps": 4
+        },
+        "ms": 0.0077,
+        "min_ms": 0.0079,
+        "max_ms": 0.0076,
+        "GB/s": 50.82,
+        "TFLOPS": 0.02
+    }
+]
