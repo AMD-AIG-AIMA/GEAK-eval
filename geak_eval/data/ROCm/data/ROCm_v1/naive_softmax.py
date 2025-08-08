@@ -268,7 +268,7 @@ def calculate_softmax_fwd_tflops(params: dict, ms: float) -> float:
     return tflops
 
 # --- Name for the benchmark output JSON file ---
-OP_NAME_FOR_BENCHMARK = "softmax_triton_perf"
+OP_NAME_FOR_BENCHMARK = "naive_softmax_triton_perf"
 
 # --- Pytest test_softmax function MODIFIED for performance benchmarking ---
 # Original parametrization is kept.

@@ -1,0 +1,382 @@
+[
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 16,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 2.02,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 16,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float32",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 2.03,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 128,
+            "N": 128,
+            "K": 16,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0065,
+        "min_ms": 0.0067,
+        "max_ms": 0.0063,
+        "GB/s": 6.27,
+        "TFLOPS": 0.08
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 32,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 2.71,
+        "TFLOPS": 0.04
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 32,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float32",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 2.71,
+        "TFLOPS": 0.04
+    },
+    {
+        "params": {
+            "M": 128,
+            "N": 64,
+            "K": 32,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 4.74,
+        "TFLOPS": 0.09
+    },
+    {
+        "params": {
+            "M": 32,
+            "N": 32,
+            "K": 64,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.006,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 1.7,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 64,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 4.06,
+        "TFLOPS": 0.09
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 64,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float32",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 4.06,
+        "TFLOPS": 0.09
+    },
+    {
+        "params": {
+            "M": 32,
+            "N": 32,
+            "K": 128,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": true,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 3.04,
+        "TFLOPS": 0.04
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 16,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 2.03,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 16,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float32",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 2.03,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 128,
+            "N": 128,
+            "K": 16,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0063,
+        "min_ms": 0.0065,
+        "max_ms": 0.0062,
+        "GB/s": 6.47,
+        "TFLOPS": 0.08
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 32,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 2.71,
+        "TFLOPS": 0.04
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 32,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float32",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 2.71,
+        "TFLOPS": 0.04
+    },
+    {
+        "params": {
+            "M": 128,
+            "N": 64,
+            "K": 32,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 4.74,
+        "TFLOPS": 0.09
+    },
+    {
+        "params": {
+            "M": 32,
+            "N": 32,
+            "K": 64,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.006,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 1.7,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 64,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 4.06,
+        "TFLOPS": 0.09
+    },
+    {
+        "params": {
+            "M": 64,
+            "N": 64,
+            "K": 64,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float32",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 4.06,
+        "TFLOPS": 0.09
+    },
+    {
+        "params": {
+            "M": 32,
+            "N": 32,
+            "K": 128,
+            "NUM_CTAS": 1,
+            "NUM_WARPS": 4,
+            "TRANS_A": false,
+            "TRANS_B": false,
+            "OUTPUT_TYPE": "float16",
+            "USE_TMA_EPILOGUE": false,
+            "input_dtype_str": "fp16"
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 3.04,
+        "TFLOPS": 0.04
+    }
+]

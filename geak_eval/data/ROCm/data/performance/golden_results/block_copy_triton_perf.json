@@ -1,0 +1,562 @@
+[
+    {
+        "params": {
+            "N": 1024,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0063,
+        "min_ms": 0.0064,
+        "max_ms": 0.0062,
+        "GB/s": 0.33,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1024,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 0.34,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 8192,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 2.69,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 8192,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.0061,
+        "GB/s": 2.69,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 65536,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 21.51,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 65536,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 21.51,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 262144,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0062,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 84.92,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 262144,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0062,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 84.92,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1048576,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0117,
+        "min_ms": 0.0119,
+        "max_ms": 0.0117,
+        "GB/s": 178.53,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1048576,
+            "src_dtype_str": "float16",
+            "dst_dtype_str": "float16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0118,
+        "min_ms": 0.012,
+        "max_ms": 0.0117,
+        "GB/s": 177.32,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1024,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 0.68,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1024,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 0.68,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 8192,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 5.38,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 8192,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 5.38,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 65536,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 42.74,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 65536,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 42.74,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 262144,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0064,
+        "min_ms": 0.0064,
+        "max_ms": 0.0063,
+        "GB/s": 164.51,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 262144,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0064,
+        "min_ms": 0.0064,
+        "max_ms": 0.0063,
+        "GB/s": 164.51,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1048576,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0122,
+        "min_ms": 0.0124,
+        "max_ms": 0.0121,
+        "GB/s": 343.01,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1048576,
+            "src_dtype_str": "float32",
+            "dst_dtype_str": "float32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0122,
+        "min_ms": 0.0124,
+        "max_ms": 0.0121,
+        "GB/s": 343.01,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1024,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 0.34,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1024,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 0.34,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 8192,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.0061,
+        "GB/s": 2.69,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 8192,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 2.69,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 65536,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 21.51,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 65536,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 21.51,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 262144,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0062,
+        "min_ms": 0.0063,
+        "max_ms": 0.0061,
+        "GB/s": 84.92,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 262144,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0062,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 84.92,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1048576,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0117,
+        "min_ms": 0.0119,
+        "max_ms": 0.0116,
+        "GB/s": 178.54,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1048576,
+            "src_dtype_str": "bfloat16",
+            "dst_dtype_str": "bfloat16",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0117,
+        "min_ms": 0.0119,
+        "max_ms": 0.0116,
+        "GB/s": 178.54,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1024,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0061,
+        "max_ms": 0.006,
+        "GB/s": 0.68,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1024,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.006,
+        "GB/s": 0.68,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 8192,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 5.38,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 8192,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 5.38,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 65536,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 42.74,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 65536,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0061,
+        "min_ms": 0.0062,
+        "max_ms": 0.0061,
+        "GB/s": 42.74,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 262144,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0064,
+        "min_ms": 0.0064,
+        "max_ms": 0.0063,
+        "GB/s": 164.51,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 262144,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0064,
+        "min_ms": 0.0064,
+        "max_ms": 0.0063,
+        "GB/s": 164.51,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1048576,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": null,
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0123,
+        "min_ms": 0.0125,
+        "max_ms": 0.0122,
+        "GB/s": 340.78,
+        "TFLOPS": "N/A"
+    },
+    {
+        "params": {
+            "N": 1048576,
+            "src_dtype_str": "int32",
+            "dst_dtype_str": "int32",
+            "padding_option": "zero",
+            "BLOCK_SIZE": 64
+        },
+        "ms": 0.0121,
+        "min_ms": 0.0123,
+        "max_ms": 0.012,
+        "GB/s": 346.41,
+        "TFLOPS": "N/A"
+    }
+]

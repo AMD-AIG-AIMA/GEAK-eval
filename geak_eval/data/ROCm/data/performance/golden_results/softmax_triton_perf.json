@@ -1,0 +1,275 @@
+[
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "dtype_str": "fp16",
+            "LOGGED_BLOCK_SIZE_heuristic": 2048
+        },
+        "ms": 0.0122,
+        "min_ms": 0.0125,
+        "max_ms": 0.012,
+        "GB/s": 2058.05,
+        "TFLOPS": 3.09
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 4096,
+            "dtype_str": "fp16",
+            "LOGGED_BLOCK_SIZE_heuristic": 4096
+        },
+        "ms": 0.0335,
+        "min_ms": 0.034,
+        "max_ms": 0.0331,
+        "GB/s": 3007.03,
+        "TFLOPS": 4.51
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "dtype_str": "fp16",
+            "LOGGED_BLOCK_SIZE_heuristic": 8192
+        },
+        "ms": 0.1266,
+        "min_ms": 0.1297,
+        "max_ms": 0.1228,
+        "GB/s": 3180.31,
+        "TFLOPS": 4.77
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 32000,
+            "dtype_str": "fp16",
+            "LOGGED_BLOCK_SIZE_heuristic": 32768
+        },
+        "ms": 0.0156,
+        "min_ms": 0.0158,
+        "max_ms": 0.0155,
+        "GB/s": 12.28,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "dtype_str": "fp16",
+            "LOGGED_BLOCK_SIZE_heuristic": 32768
+        },
+        "ms": 0.0512,
+        "min_ms": 0.0515,
+        "max_ms": 0.051,
+        "GB/s": 15.35,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 8192,
+            "dtype_str": "fp16",
+            "LOGGED_BLOCK_SIZE_heuristic": 8192
+        },
+        "ms": 0.0216,
+        "min_ms": 0.0222,
+        "max_ms": 0.0213,
+        "GB/s": 2324.89,
+        "TFLOPS": 3.49
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 32000,
+            "dtype_str": "fp16",
+            "LOGGED_BLOCK_SIZE_heuristic": 32768
+        },
+        "ms": 0.0393,
+        "min_ms": 0.0397,
+        "max_ms": 0.0389,
+        "GB/s": 2502.01,
+        "TFLOPS": 3.75
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "dtype_str": "bf16",
+            "LOGGED_BLOCK_SIZE_heuristic": 2048
+        },
+        "ms": 0.0127,
+        "min_ms": 0.0129,
+        "max_ms": 0.0125,
+        "GB/s": 1986.41,
+        "TFLOPS": 2.98
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 4096,
+            "dtype_str": "bf16",
+            "LOGGED_BLOCK_SIZE_heuristic": 4096
+        },
+        "ms": 0.0357,
+        "min_ms": 0.0362,
+        "max_ms": 0.0353,
+        "GB/s": 2818.04,
+        "TFLOPS": 4.23
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "dtype_str": "bf16",
+            "LOGGED_BLOCK_SIZE_heuristic": 8192
+        },
+        "ms": 0.1386,
+        "min_ms": 0.1416,
+        "max_ms": 0.1359,
+        "GB/s": 2906.09,
+        "TFLOPS": 4.36
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 32000,
+            "dtype_str": "bf16",
+            "LOGGED_BLOCK_SIZE_heuristic": 32768
+        },
+        "ms": 0.0171,
+        "min_ms": 0.0173,
+        "max_ms": 0.0169,
+        "GB/s": 11.24,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "dtype_str": "bf16",
+            "LOGGED_BLOCK_SIZE_heuristic": 32768
+        },
+        "ms": 0.058,
+        "min_ms": 0.0583,
+        "max_ms": 0.0579,
+        "GB/s": 13.56,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 8192,
+            "dtype_str": "bf16",
+            "LOGGED_BLOCK_SIZE_heuristic": 8192
+        },
+        "ms": 0.0225,
+        "min_ms": 0.0229,
+        "max_ms": 0.022,
+        "GB/s": 2237.86,
+        "TFLOPS": 3.36
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 32000,
+            "dtype_str": "bf16",
+            "LOGGED_BLOCK_SIZE_heuristic": 32768
+        },
+        "ms": 0.0419,
+        "min_ms": 0.0423,
+        "max_ms": 0.0416,
+        "GB/s": 2344.14,
+        "TFLOPS": 3.52
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "dtype_str": "fp32",
+            "LOGGED_BLOCK_SIZE_heuristic": 2048
+        },
+        "ms": 0.015,
+        "min_ms": 0.0152,
+        "max_ms": 0.0148,
+        "GB/s": 3356.79,
+        "TFLOPS": 2.52
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 4096,
+            "dtype_str": "fp32",
+            "LOGGED_BLOCK_SIZE_heuristic": 4096
+        },
+        "ms": 0.0487,
+        "min_ms": 0.0501,
+        "max_ms": 0.048,
+        "GB/s": 4133.08,
+        "TFLOPS": 3.1
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "dtype_str": "fp32",
+            "LOGGED_BLOCK_SIZE_heuristic": 8192
+        },
+        "ms": 0.2225,
+        "min_ms": 0.2285,
+        "max_ms": 0.1979,
+        "GB/s": 3618.59,
+        "TFLOPS": 2.71
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 32000,
+            "dtype_str": "fp32",
+            "LOGGED_BLOCK_SIZE_heuristic": 16384
+        },
+        "ms": 0.0178,
+        "min_ms": 0.0181,
+        "max_ms": 0.0175,
+        "GB/s": 21.57,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "dtype_str": "fp32",
+            "LOGGED_BLOCK_SIZE_heuristic": 16384
+        },
+        "ms": 0.0607,
+        "min_ms": 0.061,
+        "max_ms": 0.0605,
+        "GB/s": 25.9,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 8192,
+            "dtype_str": "fp32",
+            "LOGGED_BLOCK_SIZE_heuristic": 8192
+        },
+        "ms": 0.0263,
+        "min_ms": 0.0266,
+        "max_ms": 0.026,
+        "GB/s": 3827.5,
+        "TFLOPS": 2.87
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 32000,
+            "dtype_str": "fp32",
+            "LOGGED_BLOCK_SIZE_heuristic": 16384
+        },
+        "ms": 0.0508,
+        "min_ms": 0.0513,
+        "max_ms": 0.0503,
+        "GB/s": 3873.67,
+        "TFLOPS": 2.91
+    }
+]

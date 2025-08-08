@@ -1,0 +1,716 @@
+[
+    {
+        "params": {
+            "M": 256,
+            "N": 4096,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 4096,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 256
+        },
+        "ms": 0.0144,
+        "min_ms": 0.0212,
+        "max_ms": 0.0109,
+        "GB/s": 292.05,
+        "TFLOPS": 0.36
+    },
+    {
+        "params": {
+            "M": 256,
+            "N": 4096,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 4096,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 256
+        },
+        "ms": 0.0178,
+        "min_ms": 0.0215,
+        "max_ms": 0.0115,
+        "GB/s": 236.14,
+        "TFLOPS": 0.29
+    },
+    {
+        "params": {
+            "M": 256,
+            "N": 4096,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 4096,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 256
+        },
+        "ms": 0.0193,
+        "min_ms": 0.0226,
+        "max_ms": 0.0142,
+        "GB/s": 435.91,
+        "TFLOPS": 0.27
+    },
+    {
+        "params": {
+            "M": 256,
+            "N": 4096,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 4096,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 256
+        },
+        "ms": 0.0203,
+        "min_ms": 0.0262,
+        "max_ms": 0.0144,
+        "GB/s": 207.21,
+        "TFLOPS": 0.21
+    },
+    {
+        "params": {
+            "M": 256,
+            "N": 4096,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 4096,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 256
+        },
+        "ms": 0.0187,
+        "min_ms": 0.0219,
+        "max_ms": 0.0117,
+        "GB/s": 224.99,
+        "TFLOPS": 0.22
+    },
+    {
+        "params": {
+            "M": 256,
+            "N": 4096,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 4096,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 256
+        },
+        "ms": 0.016,
+        "min_ms": 0.0218,
+        "max_ms": 0.0107,
+        "GB/s": 524.18,
+        "TFLOPS": 0.26
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 2048,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0127,
+        "min_ms": 0.0154,
+        "max_ms": 0.0119,
+        "GB/s": 1325.24,
+        "TFLOPS": 1.66
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 2048,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0148,
+        "min_ms": 0.0198,
+        "max_ms": 0.0129,
+        "GB/s": 1137.96,
+        "TFLOPS": 1.42
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 2048,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0144,
+        "min_ms": 0.0148,
+        "max_ms": 0.0141,
+        "GB/s": 2332.6,
+        "TFLOPS": 1.46
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 2048,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.02,
+        "min_ms": 0.0241,
+        "max_ms": 0.016,
+        "GB/s": 840.93,
+        "TFLOPS": 0.84
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 2048,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.013,
+        "min_ms": 0.0189,
+        "max_ms": 0.0123,
+        "GB/s": 1288.53,
+        "TFLOPS": 1.29
+    },
+    {
+        "params": {
+            "M": 2048,
+            "N": 2048,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 2048,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0144,
+        "min_ms": 0.015,
+        "max_ms": 0.0141,
+        "GB/s": 2332.6,
+        "TFLOPS": 1.17
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0375,
+        "min_ms": 0.038,
+        "max_ms": 0.0371,
+        "GB/s": 3581.45,
+        "TFLOPS": 4.48
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0477,
+        "min_ms": 0.0487,
+        "max_ms": 0.0469,
+        "GB/s": 2811.59,
+        "TFLOPS": 3.51
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0696,
+        "min_ms": 0.0706,
+        "max_ms": 0.0688,
+        "GB/s": 3859.84,
+        "TFLOPS": 2.41
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0362,
+        "min_ms": 0.0366,
+        "max_ms": 0.0359,
+        "GB/s": 3708.27,
+        "TFLOPS": 3.71
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0455,
+        "min_ms": 0.0472,
+        "max_ms": 0.0446,
+        "GB/s": 2950.3,
+        "TFLOPS": 2.95
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0691,
+        "min_ms": 0.07,
+        "max_ms": 0.0684,
+        "GB/s": 3886.74,
+        "TFLOPS": 1.94
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.071,
+        "min_ms": 0.0719,
+        "max_ms": 0.0702,
+        "GB/s": 3783.55,
+        "TFLOPS": 4.73
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.088,
+        "min_ms": 0.0901,
+        "max_ms": 0.0864,
+        "GB/s": 3050.96,
+        "TFLOPS": 3.81
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.1332,
+        "min_ms": 0.1361,
+        "max_ms": 0.1319,
+        "GB/s": 4030.37,
+        "TFLOPS": 2.52
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0706,
+        "min_ms": 0.0715,
+        "max_ms": 0.0698,
+        "GB/s": 3805.0,
+        "TFLOPS": 3.8
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0855,
+        "min_ms": 0.0876,
+        "max_ms": 0.0829,
+        "GB/s": 3140.37,
+        "TFLOPS": 3.14
+    },
+    {
+        "params": {
+            "M": 8192,
+            "N": 8192,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 8192,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.1327,
+        "min_ms": 0.1344,
+        "max_ms": 0.1315,
+        "GB/s": 4047.4,
+        "TFLOPS": 2.02
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 31744,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 32768,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0221,
+        "min_ms": 0.0264,
+        "max_ms": 0.0202,
+        "GB/s": 8.61,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 31744,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 32768,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0274,
+        "min_ms": 0.031,
+        "max_ms": 0.0259,
+        "GB/s": 6.95,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 31744,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": true,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0212,
+        "min_ms": 0.0258,
+        "max_ms": 0.0195,
+        "GB/s": 18.0,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 31744,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 32768,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0233,
+        "min_ms": 0.0268,
+        "max_ms": 0.0204,
+        "GB/s": 8.19,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 31744,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 32768,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0214,
+        "min_ms": 0.024,
+        "max_ms": 0.0198,
+        "GB/s": 8.88,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 31744,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": true,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0207,
+        "min_ms": 0.0248,
+        "max_ms": 0.0188,
+        "GB/s": 18.43,
+        "TFLOPS": 0.01
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 32768,
+            "USE_BLOCKED_fwd": true,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0265,
+        "min_ms": 0.0302,
+        "max_ms": 0.0243,
+        "GB/s": 29.68,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 32768,
+            "USE_BLOCKED_fwd": true,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0248,
+        "min_ms": 0.0251,
+        "max_ms": 0.0245,
+        "GB/s": 31.69,
+        "TFLOPS": 0.03
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": true,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0318,
+        "min_ms": 0.0322,
+        "max_ms": 0.0315,
+        "GB/s": 49.44,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 32768,
+            "USE_BLOCKED_fwd": true,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0234,
+        "min_ms": 0.0262,
+        "max_ms": 0.0198,
+        "GB/s": 33.65,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 32768,
+            "USE_BLOCKED_fwd": true,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0242,
+        "min_ms": 0.0247,
+        "max_ms": 0.0239,
+        "GB/s": 32.48,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 131072,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": true,
+            "NUM_PRGMS_fwd": 1
+        },
+        "ms": 0.0313,
+        "min_ms": 0.0316,
+        "max_ms": 0.031,
+        "GB/s": 50.3,
+        "TFLOPS": 0.02
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 10240,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0173,
+        "min_ms": 0.0229,
+        "max_ms": 0.0118,
+        "GB/s": 1215.0,
+        "TFLOPS": 1.52
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 10240,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0179,
+        "min_ms": 0.0221,
+        "max_ms": 0.0132,
+        "GB/s": 1174.1,
+        "TFLOPS": 1.47
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 10240,
+            "ZERO_CENTERED_GAMMA": true,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0149,
+        "min_ms": 0.0165,
+        "max_ms": 0.0145,
+        "GB/s": 2815.21,
+        "TFLOPS": 1.76
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 10240,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp16",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0131,
+        "min_ms": 0.0207,
+        "max_ms": 0.0114,
+        "GB/s": 1601.38,
+        "TFLOPS": 1.6
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 10240,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "bf16",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0182,
+        "min_ms": 0.0238,
+        "max_ms": 0.0125,
+        "GB/s": 1156.0,
+        "TFLOPS": 1.15
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 10240,
+            "ZERO_CENTERED_GAMMA": false,
+            "dtype_str": "fp32",
+            "eps": 1e-05,
+            "blk_size_fwd": 16384,
+            "USE_BLOCKED_fwd": false,
+            "NUM_PRGMS_fwd": 304
+        },
+        "ms": 0.0147,
+        "min_ms": 0.0152,
+        "max_ms": 0.0144,
+        "GB/s": 2861.45,
+        "TFLOPS": 1.43
+    }
+]

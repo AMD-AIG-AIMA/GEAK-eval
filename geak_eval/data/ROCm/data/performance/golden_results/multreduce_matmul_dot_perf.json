@@ -1,0 +1,362 @@
+[
+    {
+        "params": {
+            "M": 128,
+            "N": 8192,
+            "K": 4096,
+            "use_bias": false,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.1242,
+        "min_ms": 0.1275,
+        "max_ms": 0.1209,
+        "GB/s": 565.65,
+        "TFLOPS": 69.16
+    },
+    {
+        "params": {
+            "M": 128,
+            "N": 8192,
+            "K": 4096,
+            "use_bias": true,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.1242,
+        "min_ms": 0.1277,
+        "max_ms": 0.1214,
+        "GB/s": 565.47,
+        "TFLOPS": 69.15
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 4096,
+            "K": 4096,
+            "use_bias": false,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.2159,
+        "min_ms": 0.2235,
+        "max_ms": 0.2096,
+        "GB/s": 194.28,
+        "TFLOPS": 79.58
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 4096,
+            "K": 4096,
+            "use_bias": true,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.2138,
+        "min_ms": 0.22,
+        "max_ms": 0.2087,
+        "GB/s": 196.22,
+        "TFLOPS": 80.38
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 1024,
+            "K": 1024,
+            "use_bias": false,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0266,
+        "min_ms": 0.027,
+        "max_ms": 0.0262,
+        "GB/s": 236.69,
+        "TFLOPS": 80.79
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 1024,
+            "K": 1024,
+            "use_bias": true,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0265,
+        "min_ms": 0.0269,
+        "max_ms": 0.0261,
+        "GB/s": 237.85,
+        "TFLOPS": 81.2
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 512,
+            "K": 2048,
+            "use_bias": false,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0872,
+        "min_ms": 0.0884,
+        "max_ms": 0.086,
+        "GB/s": 264.68,
+        "TFLOPS": 98.56
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 512,
+            "K": 2048,
+            "use_bias": true,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0874,
+        "min_ms": 0.0889,
+        "max_ms": 0.0862,
+        "GB/s": 264.04,
+        "TFLOPS": 98.31
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 4096,
+            "K": 3078,
+            "use_bias": false,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.033,
+        "min_ms": 0.0332,
+        "max_ms": 0.0329,
+        "GB/s": 763.71,
+        "TFLOPS": 0.76
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 4096,
+            "K": 3078,
+            "use_bias": true,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0335,
+        "min_ms": 0.0337,
+        "max_ms": 0.0334,
+        "GB/s": 752.75,
+        "TFLOPS": 0.75
+    },
+    {
+        "params": {
+            "M": 16,
+            "N": 2048,
+            "K": 2048,
+            "use_bias": false,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0231,
+        "min_ms": 0.0285,
+        "max_ms": 0.0148,
+        "GB/s": 369.59,
+        "TFLOPS": 5.82
+    },
+    {
+        "params": {
+            "M": 16,
+            "N": 2048,
+            "K": 2048,
+            "use_bias": true,
+            "dtype_str": "fp16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0221,
+        "min_ms": 0.0299,
+        "max_ms": 0.0172,
+        "GB/s": 386.02,
+        "TFLOPS": 6.08
+    },
+    {
+        "params": {
+            "M": 128,
+            "N": 8192,
+            "K": 4096,
+            "use_bias": false,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.123,
+        "min_ms": 0.1264,
+        "max_ms": 0.1196,
+        "GB/s": 570.99,
+        "TFLOPS": 69.81
+    },
+    {
+        "params": {
+            "M": 128,
+            "N": 8192,
+            "K": 4096,
+            "use_bias": true,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.1236,
+        "min_ms": 0.1267,
+        "max_ms": 0.1204,
+        "GB/s": 568.22,
+        "TFLOPS": 69.48
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 4096,
+            "K": 4096,
+            "use_bias": false,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.2183,
+        "min_ms": 0.2259,
+        "max_ms": 0.2129,
+        "GB/s": 192.1,
+        "TFLOPS": 78.69
+    },
+    {
+        "params": {
+            "M": 512,
+            "N": 4096,
+            "K": 4096,
+            "use_bias": true,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.2239,
+        "min_ms": 0.2299,
+        "max_ms": 0.2181,
+        "GB/s": 187.33,
+        "TFLOPS": 76.74
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 1024,
+            "K": 1024,
+            "use_bias": false,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0261,
+        "min_ms": 0.0269,
+        "max_ms": 0.0258,
+        "GB/s": 240.68,
+        "TFLOPS": 82.15
+    },
+    {
+        "params": {
+            "M": 1024,
+            "N": 1024,
+            "K": 1024,
+            "use_bias": true,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0263,
+        "min_ms": 0.0267,
+        "max_ms": 0.0259,
+        "GB/s": 239.66,
+        "TFLOPS": 81.82
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 512,
+            "K": 2048,
+            "use_bias": false,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0862,
+        "min_ms": 0.0873,
+        "max_ms": 0.0852,
+        "GB/s": 267.63,
+        "TFLOPS": 99.66
+    },
+    {
+        "params": {
+            "M": 4096,
+            "N": 512,
+            "K": 2048,
+            "use_bias": true,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0869,
+        "min_ms": 0.0882,
+        "max_ms": 0.0859,
+        "GB/s": 265.5,
+        "TFLOPS": 98.85
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 4096,
+            "K": 3078,
+            "use_bias": false,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0331,
+        "min_ms": 0.0333,
+        "max_ms": 0.033,
+        "GB/s": 762.77,
+        "TFLOPS": 0.76
+    },
+    {
+        "params": {
+            "M": 1,
+            "N": 4096,
+            "K": 3078,
+            "use_bias": true,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0336,
+        "min_ms": 0.0339,
+        "max_ms": 0.0335,
+        "GB/s": 750.05,
+        "TFLOPS": 0.75
+    },
+    {
+        "params": {
+            "M": 16,
+            "N": 2048,
+            "K": 2048,
+            "use_bias": false,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0225,
+        "min_ms": 0.0253,
+        "max_ms": 0.0207,
+        "GB/s": 378.8,
+        "TFLOPS": 5.97
+    },
+    {
+        "params": {
+            "M": 16,
+            "N": 2048,
+            "K": 2048,
+            "use_bias": true,
+            "dtype_str": "bf16",
+            "provider": "triton-dot"
+        },
+        "ms": 0.0237,
+        "min_ms": 0.0264,
+        "max_ms": 0.0174,
+        "GB/s": 359.88,
+        "TFLOPS": 5.67
+    }
+]

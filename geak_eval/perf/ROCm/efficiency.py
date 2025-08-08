@@ -230,6 +230,7 @@ if __name__ == "__main__":
 
     from loguru import logger
     logger.info(f"Performance Reference folder: {ref_folder_abs}")
+    logger.info(f"Performance Generated folder: {gen_folder_abs}")
     run_statistics(gen_folder_abs, ref_folder_abs, args.peak_gbps, args.peak_tflops)
 
     # Example of iterating if you have multiple gen_folders (commented out)
