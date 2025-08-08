@@ -1,9 +1,0 @@
-ROCm Performance analysis for /root/sapmajum/dev/TB-eval/geak_eval/sample/20250530_reflexion_oneshot_gpt41_noprocess_0_0/exec:
-Pytest phase produced outputs in /root/sapmajum/dev/TB-eval/geak_eval/sample/20250530_reflexion_oneshot_gpt41_noprocess_0_0/exec/perf
-
-Efficiency script stdout:
-No JSON files found in generated folder: /root/sapmajum/dev/TB-eval/geak_eval/sample/20250530_reflexion_oneshot_gpt41_noprocess_0_0/exec/perf
-
-Efficiency script stderr:
-2025-08-08 00:41:09.849 | INFO     | __main__:<module>:232 - Performance Reference folder: /root/sapmajum/dev/TB-eval/geak_eval/data/ROCm/data/performance/golden_results
-2025-08-08 00:41:09.849 | INFO     | __main__:<module>:233 - Performance Generated folder: /root/sapmajum/dev/TB-eval/geak_eval/sample/20250530_reflexion_oneshot_gpt41_noprocess_0_0/exec/perf
