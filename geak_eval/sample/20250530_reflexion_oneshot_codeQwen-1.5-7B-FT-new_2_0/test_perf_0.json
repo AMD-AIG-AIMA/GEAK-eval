@@ -1,0 +1,14 @@
+{
+    "block_pointer_matmul_perf.json": {
+        "ms": 0.8649,
+        "efficiency": 0.2277
+    },
+    "add_kernel_perf.json": {
+        "ms": 0.9273,
+        "efficiency": 27.8034
+    },
+    "kernel_dot_triton_perf.json": {
+        "ms": 1.0,
+        "efficiency": 0.0096
+    }
+}
